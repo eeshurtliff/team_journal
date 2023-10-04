@@ -12,3 +12,17 @@ C:\projects\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\refint\Sandbox.dll
 C:\projects\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.pdb
 C:\projects\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\Sandbox.genruntimeconfig.cache
 C:\projects\cse210-projects\sandbox\Sandbox\obj\Debug\net7.0\ref\Sandbox.dll
+C:\projects\team_journal\bin\Debug\net7.0\Sandbox.exe
+C:\projects\team_journal\bin\Debug\net7.0\Sandbox.deps.json
+C:\projects\team_journal\bin\Debug\net7.0\Sandbox.runtimeconfig.json
+C:\projects\team_journal\bin\Debug\net7.0\Sandbox.dll
+C:\projects\team_journal\bin\Debug\net7.0\Sandbox.pdb
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.AssemblyInfoInputs.cache
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.AssemblyInfo.cs
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.csproj.CoreCompileInputs.cache
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.dll
+C:\projects\team_journal\obj\Debug\net7.0\refint\Sandbox.dll
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.pdb
+C:\projects\team_journal\obj\Debug\net7.0\Sandbox.genruntimeconfig.cache
+C:\projects\team_journal\obj\Debug\net7.0\ref\Sandbox.dll
