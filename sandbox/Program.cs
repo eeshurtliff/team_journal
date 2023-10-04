@@ -12,9 +12,8 @@ class Program
         Console.WriteLine("Enter 4 to Load");
         Console.WriteLine("Enter 5 to Exit");
         string prompt = "";
-        while (prompt == ""){
-        int number;
-        bool result = int.TryParse(Console.ReadLine(), out number);        
+        do{
+        int number=Convert.ToInt32(Console.ReadLine());
         if (number == 1){
            prompt = "New Entry";
         }
@@ -30,7 +29,8 @@ class Program
         else if (number == 5){
             prompt = "Exit this program";
         }
-        };
+        }
+        while (prompt == "");
         return prompt;
     }
     // New Entry (The Return should be in the form of a dictionary 0 being date 1 being the entry Adam S.)
