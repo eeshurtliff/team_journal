@@ -18,11 +18,12 @@ public class EesEntry{
 
     public string _eesPrompt;
     
-    public void CreatePrompt(){
+    public int ChoosePrompt(){
         Random eesRandomGenerator = new Random();
         int eesRandomNumber = eesRandomGenerator.Next(0,4);
+        return eesRandomNumber;
 
-        _eesPrompt = EesPrompts[eesRandomNumber];
+        
     }
     
 
