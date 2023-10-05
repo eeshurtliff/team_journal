@@ -15,7 +15,12 @@ class Program
         do{
         int number=Convert.ToInt32(Console.ReadLine());
         if (number == 1){
-           prompt = "New Entry";
+           EesEntry eesEntry1 = new EesEntry();
+            int eesPromptNumber = eesEntry1.EesChoosePrompt();
+             eesEntry1._eesPrompt = eesEntry1.EesPrompts[eesPromptNumber];
+                
+            eesEntry1.EesFormatEntry();
+            eesMyJournal._eesEntry.Add(eesEntry1);
         }
         else if (number == 2){
             prompt = "Select an entry";
