@@ -15,6 +15,7 @@ class Program
         do{
         int number=Convert.ToInt32(Console.ReadLine());
         if (number == 1){
+            prompt = "Create an Entry";
            EesEntry eesEntry1 = new EesEntry();
             int eesPromptNumber = eesEntry1.EesChoosePrompt();
              eesEntry1._eesPrompt = eesEntry1.EesPrompts[eesPromptNumber];
