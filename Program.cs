@@ -25,6 +25,7 @@ class Program
         }
         else if (number == 2){
             prompt = "Select an entry";
+            eesMyJournal.DisplayJournal();
         }
         else if (number == 3){
             prompt = "Save your Journal";
