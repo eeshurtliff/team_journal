@@ -18,7 +18,7 @@ public class EesEntry{
 
     public string _eesPrompt;
     
-    public int ChoosePrompt(){
+    public int EesChoosePrompt(){
         Random eesRandomGenerator = new Random();
         int eesRandomNumber = eesRandomGenerator.Next(0,4);
         return eesRandomNumber;
