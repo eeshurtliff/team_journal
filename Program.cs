@@ -31,6 +31,9 @@ class Program
         }
         else if (number == 3){
             prompt = "Save your Journal";
+            Console.WriteLine("Which file would you like to save your Journal to? ");
+            string eesUserFile = Console.ReadLine();
+            EesSaveFile(eesUserFile, eesMyJournal);
         }
         else if (number == 4){
             prompt = "Load a file";
@@ -86,7 +89,12 @@ class LhSelectEntry
 }
  
     // Save Journal (Save the current journal into a CSV file Emma S.)
- 
+ static void EesSaveFile(string fileName, EesJournal eesMyJournal){
+
+        using (StreamWriter writer = new StreamWriter(fileName, true)){
+            writer.Write(eesMyJournal.FormatJournal());
+        }
+    }
     // Load a File (It should return a list of entries in their given dictionaries from a CSV file in the same format that a saved file would be inserted. Olivia S.)
  
     // Exit this program (Done)
