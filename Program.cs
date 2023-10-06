@@ -7,6 +7,7 @@ class Program
 {
     // Menu
     static string JTPMenuMethod(){
+        EesJournal eesMyJournal = new EesJournal();
         Console.WriteLine("Welcome to your electronic Journal!");
         Console.WriteLine("Enter 1 to Write");
         Console.WriteLine("Enter 2 to Display (Save First)");
